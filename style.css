@@ -1,0 +1,106 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.orange-color {
+  color: orange;
+}
+.grey-color {
+  color: #575757;
+}
+.half-width {
+  width: 50%;
+  padding: 8% 5%;
+}
+.half-width img {
+  width: 80%;
+}
+.common {
+  display: flex;
+}
+h1 {
+  font-size: 50px;
+}
+.banner a,
+.about a {
+  color: white;
+  background-image: linear-gradient(#ff8600, #fe4c2f);
+  text-decoration: none;
+  padding: 15px 25px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px rgba(255, 3, 3, 0.2);
+}
+.banner p {
+  margin: 0 0 60px 0;
+}
+.half-width2 {
+  width: 50%;
+  padding: 0 5%;
+}
+.half-width2 img {
+  width: 50%;
+  padding-left: 150px;
+  padding-top: 60px;
+}
+.about p {
+  margin: 0 0 125px 0;
+}
+.about {
+  background-image: url(images/about-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.recipies-text {
+  text-align: center;
+}
+.recipies-text p {
+  padding: 0 370px;
+}
+.single-card {
+  background: white;
+  width: 30%;
+  text-align: center;
+  border-radius: 25px;
+  color: black;
+  box-shadow: 0px 0px 15px #00000024;
+  margin: 0 20px;
+  padding: 0 30px;
+}
+.single-card img {
+  width: 100%;
+  margin-top: 7%;
+  border-radius: 30px;
+}
+.single-card p {
+  padding: 0 7% 5%;
+}
+.card-pair {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.data {
+  display: flex;
+  box-shadow: 0px 0px 15px #00000024;
+  width: 70%;
+  justify-content: space-around;
+  margin: 50px auto;
+  border-radius: 15px;
+}
+.data p {
+  margin-top: -40px;
+}
+footer {
+  background: #000;
+  color: #c7c7c7;
+  text-align: center;
+}
+footer h2 {
+  padding: 25px 0;
+}
+footer p {
+  margin-bottom: 0;
+  padding-bottom: 15px;
+}
